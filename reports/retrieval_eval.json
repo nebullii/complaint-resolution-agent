@@ -1,0 +1,171 @@
+{
+  "k": 5,
+  "recall": 0.8666666666666667,
+  "cases": [
+    {
+      "expected": "1006.34",
+      "hit": false,
+      "retrieved": [
+        "12 CFR Part 1006, Supp. I, 38(a)(1)",
+        "12 CFR Part 1006, Supp. I, 14(b)(2)(ii)",
+        "12 CFR Part 1006, Supp. I, 14(b)(2)(i)",
+        "12 CFR Part 1006, Supp. I, 14(b)(2)(i)",
+        "12 CFR Part 1006, Supp. I, 6(c)(1)"
+      ]
+    },
+    {
+      "expected": "1006.14",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1006, Supp. I, 14(b)",
+        "12 CFR Part 1006, Supp. I, 14(b)(3)(i)",
+        "12 CFR 1006.14(a)",
+        "12 CFR Part 1006, Supp. I, 14(a)",
+        "12 CFR Part 1006, Supp. I, 14(b)(4)"
+      ]
+    },
+    {
+      "expected": "1006.6",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1006, Supp. I, 6(b)(3)",
+        "12 CFR Part 1006, Supp. I, 14(b)",
+        "12 CFR 1006.14(a)",
+        "12 CFR Part 1006, Supp. I, 14(b)(2)(ii)",
+        "12 CFR 1006.14(b)"
+      ]
+    },
+    {
+      "expected": "1006.18",
+      "hit": true,
+      "retrieved": [
+        "12 CFR 1006.22(a)",
+        "12 CFR 1006.22(d)",
+        "12 CFR 1006.14(c)",
+        "12 CFR 1006.18(b)",
+        "12 CFR 1006.14(a)"
+      ]
+    },
+    {
+      "expected": "1006.26",
+      "hit": false,
+      "retrieved": [
+        "12 CFR Part 1006, Supp. I, 14(b)(4)",
+        "12 CFR 1006.22(a)",
+        "12 CFR Part 1006, Supp. I, 14(b)(4)",
+        "12 CFR Part 1006, Supp. I, 14(b)(4)",
+        "12 CFR Part 1006, Supp. I, 14(b)(2)(ii)"
+      ]
+    },
+    {
+      "expected": "1005.6",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1005, Supp. I, 2(m)",
+        "12 CFR Part 1005, Supp. I, 6(b)",
+        "12 CFR Part 1005, Supp. I, 6(b)(3)",
+        "12 CFR Part 1005, Supp. I, 7(b)(1)",
+        "12 CFR Part 1005, Supp. I, 6(b)(3)"
+      ]
+    },
+    {
+      "expected": "1005.11",
+      "hit": true,
+      "retrieved": [
+        "12 CFR 1005.11(c)",
+        "12 CFR 1005.11(c)",
+        "12 CFR Part 1005, Supp. I, 9(c)(1)",
+        "12 CFR Part 1005, Supp. I, 11(b)(1)",
+        "12 CFR 1005.11(c)"
+      ]
+    },
+    {
+      "expected": "1005.33",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1005, Supp. I, 33(a)",
+        "12 CFR Part 1005, Supp. I, 32(b)(4)",
+        "12 CFR Part 1005, Supp. I, 30(e)",
+        "12 CFR Part 1005, Supp. I, 33(a)",
+        "12 CFR Part 1005, Supp. I, 30(c)"
+      ]
+    },
+    {
+      "expected": "1026.13",
+      "hit": true,
+      "retrieved": [
+        "12 CFR 1026.13(d)",
+        "12 CFR 1026.13(d)",
+        "12 CFR Part 1026, Supp. I, 13",
+        "12 CFR Part 1026, Supp. I, 13(f)",
+        "12 CFR 1026.13(f)"
+      ]
+    },
+    {
+      "expected": "1026.12",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1026, Supp. I, 5(b)(1)(i)",
+        "12 CFR Part 1026, Supp. I, 12(b)",
+        "12 CFR Part 1026, Supp. I, 40(f)(2)(i)",
+        "12 CFR 1026.12(b)",
+        "12 CFR Part 1026, Supp. I, 12(b)(2)(iii)"
+      ]
+    },
+    {
+      "expected": "1022.43",
+      "hit": true,
+      "retrieved": [
+        "12 CFR 1022.43(e)",
+        "12 CFR 1022.43(f)",
+        "12 CFR 1022.43(b)",
+        "12 CFR 1022.43(a)",
+        "12 CFR 1022.136(g)"
+      ]
+    },
+    {
+      "expected": "1024.35",
+      "hit": true,
+      "retrieved": [
+        "12 CFR 1024.35(g)",
+        "12 CFR 1024.35(e)",
+        "12 CFR 1024.35(a)",
+        "12 CFR Part 1024, Supp. I, 35",
+        "12 CFR Part 1024, Supp. I, 35"
+      ]
+    },
+    {
+      "expected": "1024.41",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1026, Supp. I, 19(e)",
+        "12 CFR 1024.33(b)",
+        "12 CFR 1024.33(c)",
+        "12 CFR Part 1026, Supp. I, 36(a)",
+        "12 CFR Part 1024, Supp. I, 41"
+      ]
+    },
+    {
+      "expected": "1024.17",
+      "hit": true,
+      "retrieved": [
+        "12 CFR 1024.17(f)",
+        "12 CFR 1024.17(f)",
+        "12 CFR 1024.17(e)",
+        "12 CFR 1024.17(d)",
+        "12 CFR 1024.17(b)"
+      ]
+    },
+    {
+      "expected": "1030.4",
+      "hit": true,
+      "retrieved": [
+        "12 CFR Part 1030, Supp. I, 4",
+        "12 CFR Part 1030, Supp. I, 11",
+        "12 CFR Part 1030, Supp. I, 11",
+        "12 CFR Part 1005, Supp. I, 18(f)",
+        "12 CFR Part 1030, Supp. I, 8"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,27 @@
-datasets
-pandas
-scikit-learn
-matplotlib
+# data and classic ML
+datasets==5.1.0
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+joblib==1.6.0
+matplotlib==3.10.9
 jupyter
+# embeddings and retrieval
+sentence-transformers==6.1.0
+torch==2.14.1
+chromadb==1.5.9
+# LLM, agents, tracing
+openai==3.35.1
+langgraph==1.2.16
+langsmith==0.14.11
+python-dotenv==1.2.4
+# experiment tracking
+mlflow==3.17.2
+# API and audit log
+fastapi==0.156.4
+uvicorn==0.54.0
+SQLAlchemy==2.0.55
+psycopg[binary]==3.3.6
+httpx==0.28.1
+# tests
+pytest==9.1.1

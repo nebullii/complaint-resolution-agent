@@ -1,0 +1,77 @@
+{
+  "model_version": "tfidf-lr-20261021-3747b70",
+  "params": {
+    "dataset": "liri-uzh/cfpb-complaints-mini",
+    "model": "tfidf+logreg",
+    "max_iter": 1000,
+    "target_escalation_rate": 0.2,
+    "threshold": 0.4217
+  },
+  "summary": {
+    "macro_f1": 0.8305804292515632,
+    "accuracy": 0.8293577981651377,
+    "recall_debt_collection": 0.7958333333333333,
+    "recall_mortgage": 0.8958333333333334,
+    "test_escalation_rate": 0.16697247706422014,
+    "auto_accepted_accuracy": 0.8979441997063142,
+    "median_ms": 0.99,
+    "p95_ms": 2.79
+  },
+  "report": {
+    "bank_account": {
+      "precision": 0.6840148698884758,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.7229862475442044,
+      "support": 240.0
+    },
+    "credit_card": {
+      "precision": 0.8483412322274881,
+      "recall": 0.817351598173516,
+      "f1-score": 0.8325581395348837,
+      "support": 219.0
+    },
+    "credit_reporting": {
+      "precision": 0.8051948051948052,
+      "recall": 0.8611111111111112,
+      "f1-score": 0.8322147651006712,
+      "support": 216.0
+    },
+    "debt_collection": {
+      "precision": 0.834061135371179,
+      "recall": 0.7958333333333333,
+      "f1-score": 0.814498933901919,
+      "support": 240.0
+    },
+    "money_transfer": {
+      "precision": 0.7456896551724138,
+      "recall": 0.7208333333333333,
+      "f1-score": 0.7330508474576272,
+      "support": 240.0
+    },
+    "mortgage": {
+      "precision": 0.947136563876652,
+      "recall": 0.8958333333333334,
+      "f1-score": 0.9207708779443254,
+      "support": 240.0
+    },
+    "student_loan": {
+      "precision": 0.9661016949152542,
+      "recall": 0.95,
+      "f1-score": 0.957983193277311,
+      "support": 240.0
+    },
+    "accuracy": 0.8293577981651377,
+    "macro avg": {
+      "precision": 0.8329342795208954,
+      "recall": 0.8296613394216134,
+      "f1-score": 0.8305804292515632,
+      "support": 1635.0
+    },
+    "weighted avg": {
+      "precision": 0.8331435769991754,
+      "recall": 0.8293577981651377,
+      "f1-score": 0.8305310372171114,
+      "support": 1635.0
+    }
+  }
+}
